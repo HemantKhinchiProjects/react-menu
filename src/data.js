@@ -20,7 +20,7 @@ const menu = [
     title: 'godzilla milkshake',
     category: 'shakes',
     price: 6.99,
-    img: './images/item-3.jpeg',
+    img: 'https://unsplash.com/photos/zfnTH0u6240',
     desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
   },
   {
@@ -68,7 +68,7 @@ const menu = [
     title: 'quarantine buddy',
     category: 'shakes',
     price: 16.99,
-    img: './images/item-9.jpeg',
+    img: 'https://unsplash.com/photos/rwBJaJdesGg',
     desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
   },
 ];
