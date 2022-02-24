@@ -4,7 +4,7 @@ const menu = [
     title: 'buttermilk pancakes',
     category: 'breakfast',
     price: 15.99,
-    img: 'https://unsplash.com/photos/1aV-dbXWoiM',
+    img: 'https://unsplash.com/photos/1aV-dbXWoiM.jpg',
     desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
   },
   {
@@ -20,7 +20,7 @@ const menu = [
     title: 'godzilla milkshake',
     category: 'shakes',
     price: 6.99,
-    img: 'https://unsplash.com/photos/zfnTH0u6240',
+    img: 'https://unsplash.com/photos/zfnTH0u6240.jpg',
     desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
   },
   {
