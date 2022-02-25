@@ -9,8 +9,8 @@ export default function App() {
   const [menuItem, setMenuItem] = useState(items);
   const [categories, setCategories] = useState(allCategories);
   const filterItems = (category) => {
-    if (categories === 'all') {
-      setMenuItem(newItems);
+    if (category === 'all') {
+      setMenuItem(items);
       return;
     }
     const newItems = items.filter((items) => items.category === category);
