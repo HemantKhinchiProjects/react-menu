@@ -3,10 +3,19 @@ import Menu from './Menu';
 import Categories from './Categories';
 import items from './data';
 import './style.css';
-
+const allCategories = ['all', ...new Set(items.map((item) => item.category))];
+console.log(allCategories);
 export default function App() {
   const [menuItem, setMenuItem] = useState(items);
   const [categories, setCategories] = useState([]);
+  const filterItems = (category) => {
+    if (categories === 'all') {
+      setMenuItem(newItems);
+      return;
+    }
+    const newItems = items.filter((items) => items.category === category);
+    setMenuItem(newItems);
+  };
   return (
     <main>
       <section className="menu section">
@@ -14,7 +23,7 @@ export default function App() {
           <h2>Our Menu</h2>
           <div className="underline"></div>
         </div>
-        <Categories />
+        <Categories categories={categories} filterItems={filterItems} />
         <Menu items={menuItem} />
       </section>
     </main>
